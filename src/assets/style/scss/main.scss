@@ -1,0 +1,34 @@
+/*=========================================================================================
+  File Name: main.scss
+  Description: Main scss file. Imports other scss partials from 'Hacoupian' folder
+  ----------------------------------------------------------------------------------------
+  Item Name: Hacoupian - Technology Dep.
+  Author: Ahmadreza Azizan
+
+==========================================================================================*/
+
+@import "custom/variables";
+
+@import "custom/layout";
+@import "custom/typography";
+@import "custom/misc";
+@import "custom/themes";
+@import "custom/routerAnimations";
+@import "custom/transitions";
+
+@import "custom/customClasses";
+
+// Vuesax fixes and enhancments
+@import "custom/fixesVuesax";
+
+// Tailwind Fixes
+@import "custom/tailwindFix";
+@import 'custom/components/horizontalNavMenu';
+@import 'custom/components/horizontalNavMenuGroup';
+@import 'custom/components/featherIcon';
+@import 'custom/components/verticalNavMenuGroup';
+@import 'custom/components/verticalNavMenu';
+@import 'custom/components/horizontalNavMenuHeader';
+@import 'custom/components/horizontalNavMenuItem';
+@import 'custom/components/vxList';
+@import "custom/fonts";
